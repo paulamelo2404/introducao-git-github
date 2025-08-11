@@ -7,3 +7,7 @@ git add .
 git commit -m "guia de comandos" 
 
 git push origin main 
+
+*agora estamos na branch nova 
+
+git checkout -b dev (dev é o nome da branch) (esse comando trocou de branch)
