@@ -1,0 +1,9 @@
+git int → criar repositório local 
+
+git remote add origin "link do github" 
+
+git add . 
+
+git commit -m "guia de comandos" 
+
+git push origin main 
