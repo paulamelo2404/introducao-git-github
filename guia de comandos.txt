@@ -10,4 +10,5 @@ git push origin main
 
 *agora estamos na branch nova 
 
-git checkout -b dev (dev é o nome da branch) (esse comando trocou de branch)
+git checkout -b dev (dev é o nome da branch) (esse comando criou e trocou de branch e tudo q tinha na anterior vai pra nova) 
+(-b cria uma nova, pra alternar usar checkout e o nome da branch) 
