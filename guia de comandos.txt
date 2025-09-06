@@ -51,3 +51,6 @@ cd .. → volta um diretório
  e sobrescreve qualquer coisa que já estava lá, não é muito recomendado!
 
 
+ obrigada :)
+
+
