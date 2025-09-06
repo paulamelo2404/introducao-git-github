@@ -1,4 +1,7 @@
-git int → criar repositório local 
+git init → criar repositório local 
+git add → nome do arquivo para peparar pra subir apenas o arquivo em si 
+git add . → prepara todos pra subir 
+git status → verifica se tem mudanças pra serem commitadas 
 
 git remote add origin "link do github" 
 
@@ -10,5 +13,6 @@ git push origin main
 
 *agora estamos na branch nova 
 
-git checkout -b dev (dev é o nome da branch) (esse comando criou e trocou de branch e tudo q tinha na anterior vai pra nova) 
+git checkout -b dev (dev é o nome da branch) (esse comando criou e trocou de 
+branch e tudo q tinha na anterior vai pra nova) 
 (-b cria uma nova, pra alternar usar checkout e o nome da branch) 
