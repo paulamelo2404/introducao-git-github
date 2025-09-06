@@ -1,18 +1,36 @@
 git init → criar repositório local 
+
 git add → nome do arquivo para peparar pra subir apenas o arquivo em si 
+
 git add . → prepara todos pra subir 
+
 git status → verifica se tem mudanças pra serem commitadas 
 
-git remote add origin "link do github" 
+git commit -m "nome do commit" → cria o commit no repositório local 
 
-git add . 
+git push origin main → manda pra branch princial 
 
-git commit -m "guia de comandos" 
+git push origin 'nome da branch' →  manda pra branch especifica 
 
-git push origin main 
+git branch -M 'main' → usado pra renomear a branch caso seja 'master'
 
-*agora estamos na branch nova 
+git add remote add origin "link do repositório" → liga ao repositório local
 
-git checkout -b dev (dev é o nome da branch) (esse comando criou e trocou de 
-branch e tudo q tinha na anterior vai pra nova) 
-(-b cria uma nova, pra alternar usar checkout e o nome da branch) 
+git remote set-url origin "link do repositório" → se já estava ligado a
+um repositório mas precisa que ele aponte para um repositório diferente.
+
+git remote remove origin → remove a ligação com o repositório
+
+git push -u origin main → envia os commits pro github -u só precisa ser feito na 1ª vez
+
+git push origin main → envia os commits pro github 
+
+git checkout -b 'nome da nova branch' → cria e já vai pra nova branch 
+ 
+git checkout main → muda pra branch pricipal 
+
+git merge "nome da branch que você quer que as alterações vá para a principal" → junta as
+modificações para a principal
+
+
+
